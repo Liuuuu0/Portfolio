@@ -1,0 +1,96 @@
+@fontface {
+    src: url("fonts/CrimsonText-Bold.ttf");
+    font-family: CrimsonText-Bold;
+}
+
+@fontface {
+    src: url("fonts/BodoniModa-Italic-VariableFont_opsz,wght.ttf");
+    font-family: BodoniModa-Italic;
+}
+
+#name {
+    font-family: CrimsonText-Bold;
+    color: rgb(249, 106, 130);
+}
+
+#about-me {
+    font-family: BodoniModa-Italic;
+    color: rgb(221, 90, 108);
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(236, 85, 110);
+    border-radius: 15px;
+}
+
+body {
+    background-color: #f4dae3;
+    margin: 0 auto;
+    line-height: 1.5;
+    padding: 5px;
+    max-width: 900px;
+    text-align: center;
+}
+
+#hobbies {
+    font-family: BodoniModa-Italic;
+    color: rgb(221, 90, 108);
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(236, 85, 110);
+    border-radius: 15px;
+    text-align: center;
+}
+
+#techstacks {
+    font-family: BodoniModa-Italic;
+    color: rgb(221, 90, 108);
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(236, 85, 110);
+    border-radius: 15px;
+    text-align: center;
+}
+
+#softskills {
+    font-family: BodoniModa-Italic;
+    color: rgb(221, 90, 108);
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(236, 85, 110);
+    border-radius: 15px;
+    text-align: center;
+}
+
+#hobbies li {
+    list-style: none;
+}
+
+#hobbies ul {
+    text-align: center;
+}
+
+#techstacks li {
+    list-style: none;
+}
+
+#techstacks ul {
+    text-align: center;
+}
+
+#softskills li {
+    list-style: none;
+}
+
+#softskills ul {
+    text-align: center;
+}
+
+#dancingdog {
+    animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotateZ(360deg)
+    }
+}
